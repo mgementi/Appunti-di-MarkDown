@@ -34,7 +34,10 @@ t*est*o corsivo in mezzo.
 **testo**  spesso.  
 ***testo*** oppure ___testo___ corsivo e spesso.  
 t***est***o corsivo e spesso in mezzo.  
-~testo~ tagliato.
+~testo~ tagliato.  
+`testo` monospaced.
+
+**NB:** è possibile togliere la formattazione dai link usando il monospaced. Ad esempio: https://www.google.it è un link formattato, mentre `https://www.google.it` non lo è.
 
 <br><br>
 
@@ -102,10 +105,11 @@ Il carattere di escape è il **\\**.
 
 ## Codice
 
-Se voglio scrivere in monospaced mi basta fare `così`.  
-`` Se ho dei backtick nel testo tipo `così`, ora non ho più problemi e non sono obbligato ad usare sempre il carattere di escape ``
+Basta usare \`\` per formattare blocchi di testo in formato monospaced, senza preoccuparci di inserire al suo interno caratteri riservati che potrebbero alterare il formato del documento in MD.
 
-Per creare dei codici di blocco **serve inserire almeno 4 spazi**.
+`` Ad esempio ora non ho problemi con dei backtick interni tipo `così` e non sono obbligato ad usare sempre il carattere di escape ``
+
+Per creare dei blocchi di codice **serve inserire almeno 4 spazi**.
 
     <html>
         <head>
@@ -227,7 +231,7 @@ Posso anche impostare un allineamento per ogni colonna e imporre uno stile su og
 
 ## Footnotes
 
-Non sono disponibili su ogni renderer di MD, tuttavia sono carini.  
+**Disclaimer:** Non sono disponibili su ogni renderer di MD.  
 Per aggiungere una footnote basta fare così[^1].  
 Ne aggiungiamo un'altra speciale[^special].  
 
@@ -239,7 +243,7 @@ Ne aggiungiamo un'altra speciale[^special].
 
 ## Definition Lists
 
-Non sono disponibili su ogni renderer di MD, tuttavia sono carini.  
+**Disclaimer:** Non sono disponibili su ogni renderer di MD.  
 Servono per fare delle definizioni.  
 Eventualmente posso fornire più definizioni.  
 Ecco alcuni esempi:
@@ -251,4 +255,24 @@ Parola 2
 : Definizione 1
 : Definizione 2
 
+<br><br>
 
+## Task Lists
+
+**Disclaimer:** Non sono disponibili su ogni renderer di MD.  
+
+Sono semplicemente degli elenchi di checkboxes, come una lista della spesa:
+
+- [x] Task svolto
+- [ ] Task da svolgere
+
+<br><br>
+
+## Emoji
+
+**Disclaimer:** Non sono disponibili su ogni renderer di MD.  
+
+Per inserire delle emoji basta copiarle ed incollarle da un database tipo [EmojiPedia][2] oppure inserire gli shortcode tipo :joy: . C'è un database di questi shortcode online, anche se la pagina sembrerebbe non rispondere [Qui][3]
+
+[2]: https://emojipedia.org/ "database di emoji"
+[3]: https://gist.github.com/rxaviers/7360908
