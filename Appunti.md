@@ -275,7 +275,7 @@ Servono per fare delle definizioni.
 Eventualmente posso fornire più definizioni.  
 Ecco alcuni esempi:
 
-Parola 1
+Parola 1  
 : Definizione
 
 Parola 2
