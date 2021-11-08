@@ -1,9 +1,36 @@
 
 # Appunti su MarkDown !
 
+<br>
+
+# Indice
+
+  - [Escapes](#escapes)
+  - [Paragrafi e formattazioni](#paragrafi-e-formattazioni)
+  - [Blockquotes](#blockquotes)
+  - [Elenchi](#elenchi)
+    - [Elenco non numerato](#elenco-non-numerato)
+    - [Elenco numerato](#elenco-numerato)
+  - [Codice](#codice)
+  - [Horizontal Rule](#horizontal-rule)
+  - [Links](#links)
+    - [Link esterni](#link-esterni)
+    - [Link speciali](#link-speciali)
+    - [Link compatti](#link-compatti)
+  - [Immagini](#immagini)
+  - [Tabelle](#tabelle)
+  - [Footnotes](#footnotes)
+  - [Definition Lists](#definition-lists)
+  - [Task Lists](#task-lists)
+  - [Emoji](#emoji)
+
+***
+
+<br><br>
+
 ## Titoli e sottotitoli
 
-Di seguito rilascio l'elenco tutti i titoli e sottotitoli esistenti su MD:
+Di seguito lascio l'elenco di tutti i titoli esistenti su MD:
 
 # Titolo 1
 
@@ -23,7 +50,26 @@ Ricordo che i titoli necessitano di **una linea vuota prima e dopo**.
 
 <br><br>
 
-## Paragrafi e testo
+## Escapes
+
+Alcuni caratteri come:
+- \`
+- \*
+- \_
+- \-
+- \[
+- \]
+- \(
+- \)
+- \<
+- \>
+
+Sono riservati e dunque è necessario usare l'escape.  
+Il carattere di escape è il **\\**.
+
+<br><br>
+
+## Paragrafi e formattazioni
 Questo è un paragrafo.  
 Per andare a capo servono **2 spazi + invio** oppure basta usare il **tag \<br\>**.  
 
@@ -55,13 +101,13 @@ t***est***o corsivo e spesso in mezzo.
 Creare elenchi in MD è **self-explainatory**.  
 Ecco alcuni esempi:
 
-### **Elenco non numerato:**
+### Elenco non numerato
 
 - indentazione 1
   - indentazione 2
     - indentazione 3
 
-### **Elenco numerato:**
+### Elenco numerato
 
 1. uno
 2. Se si vuole indentare una lista non ordinata **serve inserire 4 spazi e il carattere \-**
@@ -83,25 +129,6 @@ Ecco alcuni esempi:
   ![Mela prelibata](./immagini/mela.png)
 
 <br>
-
-## Escapes
-
-Alcuni caratteri come:
-- \`
-- \*
-- \_
-- \-
-- \[
-- \]
-- \(
-- \)
-- \<
-- \>
-
-Sono riservati e dunque è necessario usare l'escape.  
-Il carattere di escape è il **\\**.
-
-<br><br>
 
 ## Codice
 
@@ -210,7 +237,7 @@ Ecco una dimostrazione del punto 4:
 
 <br>
 
-## Tabelle:
+## Tabelle
 
 Creare tabelle in MD, è semplice(come tutto del resto anche perchè se no chi cazzo userebbe MD per prendere appunti ?).  
 
