@@ -183,7 +183,7 @@ Gestire i link è molto semplice, ecco alcuni esempi:
 Ecco un link a [Wikipedia](https://www.wikipedia.org)  
 Ecco un link con tanto di commento in sovrimpressione a [Wikipedia](https://www.wikipedia.org "Il miglior sito per imparare cose nuove")  
 
-**NB**: I commenti si possono mettere anche con \` \` oppure \( \), oltre che con \" \".  
+**NB**: I commenti si possono mettere anche con \( \), oltre che con \" \".  
 
 Ecco un link in grassetto ! [**Wikipedia**](https://www.wikipedia.org)  
 Ecco un link in corsivo ! [*Wikipedia*](https://www.wikipedia.org)  
@@ -204,7 +204,7 @@ Ecco un link in forma compatta ! [Wikipedia][1]
 
 Ora definisco \[1\], stando attendo a lasciare uno spazio prima.  
 
-[1]: https://www.wikipedia.org "Commento fiero"
+[1]: https://www.wikipedia.org "commento"
 
 <br>
 
@@ -220,20 +220,20 @@ Modi di aggiungere un immagine:
 
 1. Standard:
 
-    \!\[Mela prelibata\]\(./immagini/mela.png)\]
+    \[\!\[Mela prelibata\]\(./immagini/mela.png)\]
 2. Con commento in sovrimpressione:
 
-    \!\[Mela prelibata\]\(./immagini/mela.png \"Una mela rossa\"\)\]
+    \[\!\[Mela prelibata\]\(./immagini/mela.png \"Una mela rossa\"\)\]
 3. Con link:
 
-    \!\[Mela prelibata\]\(./immagini/mela.png\)\]\(https://www.apple.it\)
+    \[\!\[Mela prelibata\]\(./immagini/mela.png\)\]\(https://www.apple.it\)
 4. Con link e commento in sovrimpressione:
 
-    \!\[Mela prelibata\]\(./immagini/mela.png \"Una mela rossa\"\)\]\(https://www.apple.it\)
+    \[\!\[Mela prelibata\]\(./immagini/mela.png \"Una mela rossa\"\)\]\(https://www.apple.it\)
 
 Ecco una dimostrazione del punto 4:
 
-[![Una mela prelibata !](./immagini/mela.png "Una mela rossa")](https://www.apple.it)
+[![Una mela prelibata](./immagini/mela.png "Una mela rossa")](https://www.apple.it)
 
 <br>
 
