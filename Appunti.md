@@ -76,8 +76,8 @@ Per andare a capo servono **2 spazi + invio** oppure basta usare il **tag \<br\>
 Di seguito tutte le formattazioni possibili del testo:
 
 t*est*o corsivo in mezzo.  
-*testo* oppure __testo__ corsivo.   
-**testo**  spesso.  
+*testo* oppure _testo_ corsivo.   
+**testo** oppure __testo__ spesso.  
 ***testo*** oppure ___testo___ corsivo e spesso.  
 t***est***o corsivo e spesso in mezzo.  
 ~testo~ tagliato.  
